@@ -1,6 +1,6 @@
 <template>
   <div v-theme:column="'narrow'" class="show-blogs">
-    <h1>所有博客</h1>
+    <h1>第一天学习内容</h1>
     <!-- search -->
     <!-- 在搜索时，还是输小写，因为数据本来就是小写的，大写只是后来显示格式 -->
     <input type="text" v-model="search" placeholder="search somthing...." />
